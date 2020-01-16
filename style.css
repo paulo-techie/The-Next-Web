@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    float: left;
+}
+
+.nav-right {
+    display: flex;
+    align-items: right;
+}
