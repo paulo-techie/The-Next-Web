@@ -11,5 +11,5 @@ nav {
 
 .nav-right {
     display: flex;
-    align-items: right;
+    float: right;
 }
