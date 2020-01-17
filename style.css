@@ -1,15 +1,18 @@
 nav {
     display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: inline-flex;
     background-color: black;
     color: white;
 }
 
-.nav-left {
-    display: flex;
+.nav-row1-left {
     float: left;
 }
 
-.nav-right {
-    display: flex;
+.nav-row1-right {
     float: right;
 }
