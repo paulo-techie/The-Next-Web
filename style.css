@@ -51,6 +51,7 @@ li {
 
 .row2 {
     display: flex;
+    text-decoration: none;
 
 }
 .nav-row2-left {
@@ -58,3 +59,18 @@ li {
     color: gray;
 }
 
+.nav-row2-left a:link {
+    text-decoration: none;
+}
+
+.nav-row2-left a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.header-first-row {
+    display: flex;
+    background-color: rgb(250, 245, 245);
+    background-image: url(./resources/tesla-img.jpg);
+    background-repeat: no-repeat;
+}
