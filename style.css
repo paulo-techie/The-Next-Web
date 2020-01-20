@@ -29,12 +29,32 @@ li {
     list-style: none;
 }
 
-.nav-row1-left, .nav-row1-right a:link, a:visited {
+.nav-row1-right a:link, a:visited {
     color: gray;
     text-decoration: none;
 }
 
-.nav-row1-left, .nav-row1-right a:hover {
+.nav-row1-left a:link, a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-row1-left a:hover {
     color: white;
     text-decoration: none;
 }
+
+.nav-row1-right a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.row2 {
+    display: flex;
+
+}
+.nav-row2-left {
+    display: flex;
+    color: gray;
+}
+
