@@ -4,15 +4,37 @@ nav {
 }
 
 .row1 {
-    display: inline-flex;
+    display: flex;
     background-color: black;
     color: white;
+    width: 100%;
 }
 
 .nav-row1-left {
-    float: left;
+    display: flex;
+    padding-right: 10px;
+    flex-grow: 10;
+
 }
 
 .nav-row1-right {
+    display: flex;
+    justify-content: flex-end;
     float: right;
+    flex-grow: 10;
+}
+
+li {
+    padding-right: 10px;
+    list-style: none;
+}
+
+.nav-row1-left, .nav-row1-right a:link, a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-row1-left, .nav-row1-right a:hover {
+    color: white;
+    text-decoration: none;
 }
