@@ -90,70 +90,69 @@ li {
     height: 215px;
 }
 
+.latest-news {
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+
 .latest-news-row1-item1 {
     display: flex;
 }
 
 #latest-news-item1 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-   
+    margin-right: 0px;
 }
 
 #latest-news-item2 {
     background-image: url(./resources/mammoth.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-    
+    /* flex-grow: 5; */
+    margin-right: 0px;
 }
 
 #latest-news-item3 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-    
+    margin-right: 0px;
 }
 
 #latest-news-item4 {
     background-image: url(./resources/mammoth.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
- 
+    margin-right: 0px;
 }
 
 #latest-news-item5 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
-    height: 100px;
-    flex-grow: 5;
-    
+    width: auto;
+    height: 120px;
+    margin-right: 0px;
 }
 
 #latest-news-item6 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-    
+    margin-right: 0px;
 }
 
 #latest-news-item7 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-    
+    margin-right: 0px;
 }
 
 #latest-news-item8 {
     background-image: url(./resources/smash\ bros.jpg);
-    width: 35%;
+    width: auto;
     height: 100px;
-    flex-grow: 5;
-   
+    margin-right: 0px;
 }
