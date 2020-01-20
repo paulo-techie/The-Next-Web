@@ -71,6 +71,27 @@ li {
 .header-first-row {
     display: flex;
     background-color: rgb(250, 245, 245);
-    background-image: url(./resources/tesla-img.jpg);
     background-repeat: no-repeat;
 }
+
+#figure-tesla {
+    background-image: url(./resources/tesla-img.jpg);
+    width: 790px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#figure-aside, #figure-aside2 {
+    background-image: url(./resources/aside-img1.jpg);
+    background-repeat: no-repeat;
+    width: 560px;
+    border: 1px solid black;
+    margin-left: -25px;
+    height: 215px;
+}
+
+/* #figure-aside2 {
+    background-image: url(./resources/aside-img1.jpg);
+    background-repeat: no-repeat;
+    
+} */
