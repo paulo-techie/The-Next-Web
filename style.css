@@ -147,11 +147,16 @@ li {
     vertical-align: baseline;
 }
 
-#figure-tesla {
-    background-image: url(./resources/tesla-img.jpg);
+#figure-tesla {    
     width: 790px;
     height: 450px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+    background: url(./resources/tesla-img.jpg);
+    background-image: linear-gradient(to top, #111, #eee);
+
+
+
+
 }
 
 #figure-aside, #figure-aside2 {
