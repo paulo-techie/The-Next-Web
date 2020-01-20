@@ -3,6 +3,14 @@ nav {
     flex-direction: column;
 }
 
+hr {
+    border: 1px solid rgba(255,68,34,.25)
+}
+
+h3 {
+    color:  #f42;
+}
+
 .row1 {
     display: flex;
     background-color: black;
@@ -72,6 +80,71 @@ li {
     display: flex;
     background-color: rgb(250, 245, 245);
     background-repeat: no-repeat;
+}
+
+.funding-rounds-header {
+    width: 100%;
+}
+
+.funding-rounds-header h3 {
+    margin: 20px;
+}
+
+.funding-rounds {
+    display: flex;
+    background: #fffaf8;
+}
+
+.funding-round-items {
+    margin: 20px;
+    width: 100%;
+
+}
+
+.item-header {
+    background: #f42;
+    color: #fff;
+    line-height: 3;
+    margin: 0;
+}
+
+.item-amount, .item-category {
+    line-height: 2;
+    margin: 0;
+    background: rgba(255,68,34,.08);
+}
+
+.tech-news {
+    display: flex;
+}
+
+.tech-news-block {
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.tech-news-block li {
+    border-bottom: 1px solid #eee;
+    list-style: disc;
+    color: #555;
+    padding: 6px 0 6px 14px;
+}
+
+.tech-news-block img {
+    float: right;
+    width: 96px;
+    height: 96px;
+
+} 
+
+
+.tech-most-popular {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
+    background-size: 100% 100%;
+    background-image: linear-gradient(to top, #111, #eee);
+    height: 276px;
+    vertical-align: baseline;
 }
 
 #figure-tesla {
