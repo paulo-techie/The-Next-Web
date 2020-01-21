@@ -11,6 +11,10 @@ h3 {
     color:  #f42;
 }
 
+.footer-nav-menu {
+    display: flex;
+}
+
 .row1 {
     display: flex;
     background-color: black;
@@ -114,6 +118,10 @@ li {
     background: rgba(255,68,34,.08);
 }
 
+.latest-deals {
+    display: flex;
+}
+
 .tech-news {
     display: flex;
 }
@@ -140,19 +148,17 @@ li {
 
 
 .tech-most-popular {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
+    background-image: linear-gradient(to top, #444, #555, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
     background-size: 100% 100%;
-    background-image: linear-gradient(to top, #111, #eee);
+    color: white;
     height: 276px;
-    vertical-align: baseline;
 }
 
 #figure-tesla {    
     width: 790px;
     height: 450px;
     background-repeat: no-repeat;    
-    background: url(./resources/tesla-img.jpg);
-    background-image: linear-gradient(to top, #111, #eee);
+    background-image: linear-gradient(to top, #444, #555, transparent), url(./resources/tesla-img.jpg);
 
 
 
