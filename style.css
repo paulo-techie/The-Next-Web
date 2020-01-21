@@ -318,6 +318,9 @@ footer {
 .copyright {
     background-color: black;
     height: 5em;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 0;
 }
 
 #footer-nav-items {
@@ -332,4 +335,17 @@ footer {
 #footer-nav-items a:hover {
     color: white;
     text-decoration: none;
+}
+
+.footer-icons {
+    text-align: center;
+}
+
+button {
+    border-radius: 30px;
+    width: auto;
+}
+
+#footer-nav-items {
+    align-items: center;
 }
