@@ -319,3 +319,17 @@ footer {
     background-color: black;
     height: 5em;
 }
+
+#footer-nav-items {
+    display: flex;
+}
+
+#footer-nav-items a:link {
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+}
+
+#footer-nav-items a:hover {
+    color: white;
+    text-decoration: none;
+}
