@@ -309,3 +309,13 @@ li {
     height: 100px;
     margin-right: 0px;
 }
+
+
+footer {
+    background-color: rgba(7, 5, 5, 0.918);
+}
+
+.copyright {
+    background-color: black;
+    height: 5em;
+}
