@@ -231,7 +231,6 @@ li {
     background-image: linear-gradient(to top, #444, #555, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
     background-size: 100% 100%;
     color: white;
-    align-items: ;
     height: 276px;
 }
 
@@ -241,10 +240,6 @@ li {
     height: 450px;
     background-repeat: no-repeat;    
     background-image: linear-gradient(to top, #444, #555, transparent), url(./resources/tesla-img.jpg);
-
-
-
-
 }
 
 #figure-aside, #figure-aside2 {
