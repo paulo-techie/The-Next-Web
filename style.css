@@ -254,7 +254,7 @@ li {
     height: 276px;
 }
 
-#figure-tesla {    
+#figure-tesla {  
     height: 450px;
     background-repeat: no-repeat;    
     background-image: linear-gradient(to top, #444, #555, transparent), url(./resources/tesla-img.jpg);
@@ -267,7 +267,12 @@ li {
 
 #twd-img {
     padding: 3%;
-    width: 50%;
+    width: 45%;
+}
+
+#figure-test-short {
+    float: right;
+    color: white;
 }
 
 #figure-aside, #figure-aside2 {
