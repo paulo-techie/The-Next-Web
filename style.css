@@ -261,6 +261,14 @@ li {
     background-size: 100% 100%;
 }
 
+.tnw-container {
+    display: flex;
+}
+
+.tnw-top {
+    position: relative;
+}
+
 #figure-aside, #figure-aside2 {
     background-image: url(./resources/aside-img1.jpg);
     background-repeat: no-repeat;
@@ -379,4 +387,12 @@ button {
 button:hover {
     background: #000;
     border-color: #333;
+}
+
+.footer-legal-logoTNW {
+    width: 40px;
+}
+
+#stackpath {
+    width: 5%;
 }
