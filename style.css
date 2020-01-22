@@ -265,8 +265,9 @@ li {
     display: flex;
 }
 
-.tnw-top {
-    position: relative;
+#twd-img {
+    padding: 3%;
+    width: 50%;
 }
 
 #figure-aside, #figure-aside2 {
