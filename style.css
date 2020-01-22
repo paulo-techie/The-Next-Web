@@ -25,14 +25,12 @@ h3 {
 .nav-row1-left {
     display: flex;
     padding-right: 10px;
-    flex-grow: 10;
 
 }
 
 .nav-row1-right {
     display: flex;
     justify-content: flex-end;
-    float: right;
     flex-grow: 10;
 }
 
@@ -80,8 +78,22 @@ li {
     text-decoration: none;
 }
 
+.nav-row2-right {
+    display: flex;
+    color: gray;
+    flex-grow: 10;
+    justify-content: flex-end;
+}
+
+.nav-row2-right i {
+     transform: rotateY(180deg);
+     font-size: large;
+}
+
+
 .header-first-row {
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(250, 245, 245);
     background-repeat: no-repeat;
 }
@@ -96,12 +108,13 @@ li {
 
 .funding-rounds {
     display: flex;
+    flex-wrap: wrap;
     background: #fffaf8;
 }
 
 .funding-round-items {
     margin: 20px;
-    width: 100%;
+    width: 25%;
 
 }
 
@@ -120,6 +133,7 @@ li {
 
 .latest-deals-1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #latest-heading {
@@ -189,6 +203,7 @@ li {
 
 .tech-news {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tech-news-block {
@@ -216,10 +231,12 @@ li {
     background-image: linear-gradient(to top, #444, #555, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
     background-size: 100% 100%;
     color: white;
+    align-items: ;
     height: 276px;
 }
 
-#figure-tesla {    
+#figure-tesla {  
+    align-items: baseline;  
     width: 790px;
     height: 450px;
     background-repeat: no-repeat;    
@@ -306,19 +323,21 @@ li {
 
 
 footer {
-    background-color: rgba(7, 5, 5, 0.918);
+    background-color: #131313;;
+    text-align: center;
+    padding-top: 20px;
+    color: #555;
 }
 
 .copyright {
-    background-color: black;
     height: 5em;
-    color: whitesmoke;
     text-align: center;
     padding: 30px 0;
 }
 
 #footer-nav-items {
     display: flex;
+    margin: 20px auto;
 }
 
 #footer-nav-items a:link {
@@ -331,15 +350,18 @@ footer {
     text-decoration: none;
 }
 
-.footer-icons {
-    text-align: center;
-}
 
 button {
-    border-radius: 30px;
-    width: auto;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    background: #333;
+    color: #fff;
+    border-color: #333;
 }
 
-#footer-nav-items {
-    align-items: center;
+button:hover {
+    background: #000;
+    border-color: #333;
 }
