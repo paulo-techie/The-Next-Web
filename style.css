@@ -16,6 +16,7 @@ hr {
 
 h3 {
     color:  #f42;
+    margin: 20px;
 }
 
 .footer-nav-menu {
@@ -122,10 +123,6 @@ li {
     width: 100%;
 }
 
-.funding-rounds-header h3 {
-    margin: 20px;
-}
-
 .funding-rounds {
     display: flex;
     flex-wrap: wrap;
@@ -154,10 +151,6 @@ li {
 .latest-deals-1 {
     display: flex;
     flex-wrap: wrap;
-}
-
-#latest-heading {
-    text-align: left;
 }
 
 #latest-deals-item1 {
