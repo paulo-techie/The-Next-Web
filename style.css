@@ -236,8 +236,18 @@ li {
     float: right;
     width: 96px;
     height: 96px;
-
 } 
+
+.author {
+    display: flex;
+    margin-top: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+li a:hover {
+    color: gray;
+}
 
 
 .tech-most-popular {
@@ -317,7 +327,7 @@ li {
 
 .latest-news-row1-item1 {
     display: flex;
-    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #latest-news-item1 {
@@ -404,7 +414,11 @@ li {
 #news-description a:hover,
 #news-description2 a:hover,
 #news-description3 a:hover,
-#news-description4 a:hover {
+#news-description4 a:hover,
+#news-description5 a:hover,
+#news-description6 a:hover,
+#news-description7 a:hover,
+#news-description8 a:hover {
     text-decoration: underline;
     color: red;
 }
