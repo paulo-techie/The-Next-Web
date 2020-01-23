@@ -372,23 +372,33 @@ li {
 #latest-news-item8 {
     background-image: url(./resources/smash\ bros.jpg);
     height: 10em;
-    width: 15em;
-    margin: 0;
+    width: 19em;
+    margin: 1em;
 }
 
 #news-description,
 #news-description2,
 #news-description3,
-#news-description4 {
+#news-description4,
+#news-description5,
+#news-description6,
+#news-description7,
+#news-description8 {
     margin-top: 65%;
     text-decoration: none;
+    color: black;
 }
 
 #news-description a:link,
 #news-description2 a:link,
 #news-description3 a:link,
-#news-description4 a:link {
+#news-description4 a:link,
+#news-description5 a:link,
+#news-description6 a:link,
+#news-description7 a:link,
+#news-description8  a:link {
     text-decoration: none;
+    color: black;
 }
 
 #news-description a:hover,
