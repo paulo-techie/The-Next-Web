@@ -296,7 +296,12 @@ li {
     margin-bottom: auto;
     padding-top: 20%;
 }
-
+#aside-podium {
+    position: relative;
+    color: white;
+    margin-bottom: auto;
+    padding-top: 20%;
+}
 
 #aside-caption,
 #aside-caption2 {
