@@ -1,9 +1,38 @@
+@media only screen and (max-width: 414px) {
+
+    .row1 {
+      flex-direction: column;
+      font-size: 11px;
+      margin: 0 auto;
+    }
+
+    li {
+            padding-right: 0;
+    }
+
+    .row2 {
+        flex-direction: column;
+        font-size: 10px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+  } 
+
+
 body {
     font-family: Arial,sans-serif;
     margin: 0;
     padding: 0;
     border: none;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1192px;
+    box-sizing: border-box;
+} 
 
 nav {
     display: flex;
@@ -16,7 +45,8 @@ hr {
 
 h3 {
     color:  #f42;
-    margin: 20px;
+    margin: 1%;
+    padding-top: 50px;
 }
 
 .footer-nav-menu {
@@ -26,7 +56,6 @@ h3 {
 .row1 {
     display: flex;
     background-color: black;
-    color: white;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -34,7 +63,7 @@ h3 {
 
 .nav-row1-left {
     display: flex;
-    padding-right: 10px;
+    padding-right: 5px;
 
 }
 
@@ -72,7 +101,9 @@ li {
 .row2 {
     display: flex;
     text-decoration: none;
+    background-color: #fff;
 }
+
 .nav-row2-left {
     display: flex;
     color: gray;
@@ -103,35 +134,49 @@ li {
 .header-first-row {
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(to bottom, #eee, #fff 50%);
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eee, #fff 25%);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 450px;
+    flex: 100%;
+    height: 500px;
+    min-width: 700px;
 }
 
 .header-column1 {
-    width: 66.66%;
+    flex: 67%;
     height: 100%;
 }
 
 .header-column2 {
-    width: 33.33%;
+    flex: 33%;
     height: 50%;
-}
-
-.funding-rounds-header {
-    width: 100%;
 }
 
 .funding-rounds {
     display: flex;
     flex-wrap: wrap;
-    background: #fffaf8;
+    flex: 100%;
 }
 
 .funding-round-items {
-    margin: 20px;
-    width: 25%;
+    flex: 17.8%;
+    margin: 0 1%;
+    background: #fffaf8;
+    min-width: 250px;
+}
+
+.funding-round-items p {
+    padding: 0 5%;
+
+}
+
+.funding-round-items img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    z-index: 10;
+    float: left;
 
 }
 
@@ -139,91 +184,66 @@ li {
     background: #f42;
     color: #fff;
     line-height: 3;
+    padding: 0 5%;
     margin: 0;
 }
 
 .item-amount, .item-category {
     line-height: 2;
     margin: 0;
+    padding: 0 5%;
     background: rgba(255,68,34,.08);
 }
 
-.latest-deals-1 {
+
+.latest-news-item {
+    flex: 17.8%;
+    background: #fffaf8;
+    min-width: 250px;
+    margin: 0 1% 1%;
+}
+
+.latest-news-items, .latest-deals-items {
     display: flex;
     flex-wrap: wrap;
+    flex: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-#latest-deals-item1 {
-   background-image: url("https://cdnp0.stackassets.com/7729a09bbeb1c288a048c1b854dababc73e30ef1/store/dbef0dc7b1c1694830a3a9bc71b4bc976bf8e0e1e84cb62e12bab0fe6e72/sale_25440_primary_image.jpg");
-   height: 20em;
-   width: 19em;
-   margin: 1em;
+.latest-news-item figure {
+    margin: 0 0;
 }
 
-#latest-deals-item2 {
-    background-image: url("https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
+.latest-news-item figure img {
+    width: 100%;
+    flex: 100%;
+    padding: 0;
+    margin: 0 auto;
 }
 
-#latest-deals-item3 {
-    background-image: url("https://cdnp3.stackassets.com/f7975567bfde79648a2dfc25a7117b1f4e64198a/store/3d45335559eb6db6de1e1dae35734f2b2636b106824e7db3c2ee76b386ba/sale_25035_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-deals-item4 {
-    background-image: url("https://cdnp3.stackassets.com/ba7cb2479d7bb8b5a7fecebb6af74ad77f9f74fa/store/c350066a7652411d43ac5e6a9b3caf8c8aaec349093c09728483b211ca82/sale_19370_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-deals-item5 {
-    background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-deals-item6 {
-    background-image: url("https://cdnp2.stackassets.com/6cc99ca3c6b35767dbcbfc1bbbbd704e75c3182f/store/e2e620b247076565e0f19bcb1da7365fb5ea708126464598f85632dccb1d/sale_20714_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-deals-item7 {
-    background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-deals-item8 {
-    background-image: url("https://cdnp3.stackassets.com/51a2ef5b5a71e36028af6917080478e616306de2/store/9515b1b60ecdee4c38f8e645fb9bae5ca7c441ac0bcbf7262a88441aea65/sale_25112_primary_image.jpg");
-    height: 20em;
-    width: 19em;
-    margin: 1em;
-    align-items: left;
-}
-
-.latest-deals-2 {
+/* .latest-deals-items {
     display: flex;
+    flex-wrap: wrap;
+}  */
+
+.latest-deals-items div {
+    background-image: url("https://cdnp0.stackassets.com/7729a09bbeb1c288a048c1b854dababc73e30ef1/store/dbef0dc7b1c1694830a3a9bc71b4bc976bf8e0e1e84cb62e12bab0fe6e72/sale_25440_primary_image.jpg");
+    height: 20em;
+    width: 17.8%;
+    margin: 1em;
 }
 
 .tech-news {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .tech-news-block {
-    width: 300px;
+    width: 17.8%;
     flex-wrap: wrap;
-    margin: 20px;
-}
+} 
 
 .tech-news-block li {
     border-bottom: 1px solid #eee;
@@ -238,34 +258,31 @@ li {
     height: 96px;
 } 
 
-.author {
-    display: flex;
-    margin-top: 0;
-    font-size: 12px;
-    text-align: left;
-}
-
-li a:hover {
-    color: gray;
-}
-
 
 .tech-most-popular {
-    background-image: linear-gradient(to top, #444, #555, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
+    background-image: linear-gradient(to top, #444, #555 10%, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
     background-size: 100% 100%;
     color: white;
     height: 276px;
 }
 
 #figure-tesla {  
-    height: 450px;
+    height: 500px;
     background-repeat: no-repeat;    
-    background-image: linear-gradient(to top, #444, #555, transparent), url(./resources/tesla-img.jpg);
+    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(./resources/tesla-img.jpg);
     background-size: 100% 100%;
+    margin: 0 1.5%;
+    margin-top: 1.5%;
 }
 
-.tnw-container {
-    display: flex;
+#figure-tesla figcaption {
+    position: relative;
+    padding: 0 2%;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 900;
+    bottom: -50%;
+
 }
 
 #twd-img {
@@ -278,154 +295,37 @@ li a:hover {
     color: white;
 }
 
-#figure-aside, #figure-aside2 {
-    background-image: url(./resources/aside-img1.jpg);
+.header-column2 figure {
+    height: 97%;
+    margin-left: 0;
+    margin-top: 3%;
+    margin-right: 3%;
+    overflow: hidden;
+}
+
+#figure-aside {
+    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 220px;
-    color: white;
 }
 
-#teslacaption {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin-top: 20%;
+#figure-aside2 {
+    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/tether-1122-796x431.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-#teslacaption2 {
-    flex-basis: auto;
-    font-size: 40px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
-    
-}
-
-#aside-tech {
-    font-size: 15px;
-    margin-bottom: auto;
-    padding-top: 20%;
-}
-#aside-podium {
+#figure-aside figcaption, #figure-aside2 figcaption {
     position: relative;
-    color: white;
-    margin-bottom: auto;
-    padding-top: 20%;
+    padding: 0 2%;
+    color: #fff;
+    font-size: x-large;
+    font-weight: 400;
+    bottom: -75%;
 }
-
-#aside-caption,
-#aside-caption2 {
-    
-    font: bold;
-    font-size: 30px;
-}
-
-.latest-news {
-    width: 80%;
-    margin-left: 10%;
-}
-
-.latest-news-row1-item1 {
-    display: flex;
-    padding-bottom: 60px;
-}
-
-#latest-news-item1 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item2 {
-    background-image: url(./resources/mammoth.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item3 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item4 {
-    background-image: url(./resources/mammoth.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item5 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item6 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item7 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#latest-news-item8 {
-    background-image: url(./resources/smash\ bros.jpg);
-    height: 10em;
-    width: 19em;
-    margin: 1em;
-}
-
-#news-description,
-#news-description2,
-#news-description3,
-#news-description4,
-#news-description5,
-#news-description6,
-#news-description7,
-#news-description8 {
-    margin-top: 65%;
-    text-decoration: none;
-    color: black;
-}
-
-#news-description a:link,
-#news-description2 a:link,
-#news-description3 a:link,
-#news-description4 a:link,
-#news-description5 a:link,
-#news-description6 a:link,
-#news-description7 a:link,
-#news-description8  a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#news-description a:hover,
-#news-description2 a:hover,
-#news-description3 a:hover,
-#news-description4 a:hover,
-#news-description5 a:hover,
-#news-description6 a:hover,
-#news-description7 a:hover,
-#news-description8 a:hover {
-    text-decoration: underline;
-    color: red;
-}
-
 
 footer {
-    background-color: #131313;;
+    background-color: #131313;
     text-align: center;
     padding-top: 20px;
     color: #555;
@@ -434,15 +334,16 @@ footer {
 .copyright {
     height: 5em;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 1.5%;
     background:#000;
     color:#aaa;
-    font-size: 13px;
+    font-size: 80%;
 }
 
 #footer-nav-items {
     display: flex;
     margin: 30px auto;
+    font-size: small;
 }
 
 #footer-nav-items a:link {
@@ -472,7 +373,7 @@ button:hover {
 }
 
 .footer-legal-logoTNW {
-    width: 40px;
+    width: 3%;
 }
 
 #stackpath {
