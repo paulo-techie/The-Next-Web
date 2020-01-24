@@ -1,4 +1,4 @@
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
 
     .row1 {
       flex-direction: column;
@@ -17,8 +17,17 @@
         padding: 0;
     }
 
+    .header-first-row {
+        flex-direction: column;
+        overflow: hidden;
+    }
 
-  } 
+    .tech-news section {
+        flex-direction: column;
+        flex: 100%;
+    }
+ 
+}
 
 
 body {
@@ -133,24 +142,23 @@ li {
 
 .header-first-row {
     display: flex;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #eee, #fff 25%);
     background-repeat: no-repeat;
     flex: 100%;
     height: 500px;
-    min-width: 700px;
+    min-width: 374px;
 }
 
 .header-column1 {
-    flex: 67%;
-    height: 100%;
+    flex: 2;
+    min-width: 345px ;
 }
 
 .header-column2 {
-    flex: 33%;
-    height: 50%;
+    flex: 1;
+    min-width: 165px;
 }
 
 .funding-rounds {
@@ -196,7 +204,7 @@ li {
 }
 
 
-.latest-news-item {
+.latest-news-item,  .latest-deals-items div {
     flex: 17.8%;
     background: #fffaf8;
     min-width: 250px;
@@ -222,11 +230,6 @@ li {
     margin: 0 auto;
 }
 
-/* .latest-deals-items {
-    display: flex;
-    flex-wrap: wrap;
-}  */
-
 .latest-deals-items div {
     background-image: url("https://cdnp0.stackassets.com/7729a09bbeb1c288a048c1b854dababc73e30ef1/store/dbef0dc7b1c1694830a3a9bc71b4bc976bf8e0e1e84cb62e12bab0fe6e72/sale_25440_primary_image.jpg");
     height: 20em;
@@ -240,19 +243,39 @@ li {
     width: 100%;
 }
 
+.tech-news section {
+    flex: 30%;
+    margin: 0 1%;
+    min-width: 250px;
+    color: #555;
+}
+
 .tech-news-block {
-    width: 17.8%;
-    flex-wrap: wrap;
-} 
+    margin: 2% 0;
+    background: rgba(255,68,34,.06);
+}
 
 .tech-news-block li {
     border-bottom: 1px solid #eee;
-    list-style: disc;
     color: #555;
-    padding: 6px 0 6px 14px;
+    font-size: 13px;
+    padding: 1% 0 1% 2%;
+    list-style: " •";
+    background-color: #fff;
 }
 
-.tech-news-block img {
+.tech-news-block ul {
+    background-color: #fff;
+    padding: 0;
+    padding-left: 1%;
+}
+
+.tech-latest {
+    padding-left: 4%;
+    color:#f42;
+}
+
+.tech-latest img {
     float: right;
     width: 96px;
     height: 96px;
@@ -264,10 +287,12 @@ li {
     background-size: 100% 100%;
     color: white;
     height: 276px;
+    margin: 0;
+    padding: 4%;
 }
 
 #figure-tesla {  
-    height: 500px;
+    height: 100%;
     background-repeat: no-repeat;    
     background-image: linear-gradient(to top, #444, #555 10%, transparent), url(./resources/tesla-img.jpg);
     background-size: 100% 100%;
@@ -307,12 +332,14 @@ li {
     background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 48.5%;
 }
 
 #figure-aside2 {
     background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/tether-1122-796x431.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 48.5%;
 }
 
 #figure-aside figcaption, #figure-aside2 figcaption {
