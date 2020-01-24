@@ -302,7 +302,8 @@ li {
 
 #figure-tesla figcaption {
     position: relative;
-    padding: 0 2%;
+    display: inline-block;
+    flex-basis: auto;
     color: #fff;
     font-size: xx-large;
     font-weight: 900;
