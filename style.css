@@ -1,5 +1,9 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 768px) {
+    .row1 {
+    }
+} */
 
+@media only screen and (max-width: 768px) {
     .row1 {
       flex-direction: column;
       font-size: 11px;
@@ -19,6 +23,7 @@
 
     .header-first-row {
         flex-direction: column;
+        font: 100%;
         overflow: hidden;
     }
 
@@ -26,7 +31,19 @@
         flex-direction: column;
         flex: 100%;
     }
- 
+
+    .header-column1 {
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .header-column2 {
+        margin-left: 1.5%;
+    }
+
+    #footer-nav-items li{
+        font-size: 70%;
+    }
 }
 
 
@@ -35,6 +52,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    color: gray;
 }
 
 .container {
@@ -48,14 +66,22 @@ nav {
     flex-direction: column;
 }
 
-hr {
-    border: 1px solid rgba(255,68,34,.25)
+h4 {
+    color: black;
 }
 
-h3 {
+p {
+    font-size: small;
+}
+
+section > h3 {
     color:  #f42;
     margin: 1%;
     padding-top: 50px;
+}
+
+hr {
+    border: 1px solid rgba(255,68,34,.25)
 }
 
 .footer-nav-menu {
@@ -143,22 +169,21 @@ li {
 .header-first-row {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-top: 1%;
     background: linear-gradient(to bottom, #eee, #fff 25%);
     background-repeat: no-repeat;
     flex: 100%;
-    height: 500px;
     min-width: 374px;
+    height: 560px;
+    overflow: hidden;
 }
 
 .header-column1 {
     flex: 2;
-    min-width: 345px ;
 }
 
 .header-column2 {
     flex: 1;
-    min-width: 165px;
 }
 
 .funding-rounds {
@@ -168,7 +193,7 @@ li {
 }
 
 .funding-round-items {
-    flex: 17.8%;
+    flex: 4;
     margin: 0 1%;
     background: #fffaf8;
     min-width: 250px;
@@ -204,9 +229,8 @@ li {
 }
 
 
-.latest-news-item,  .latest-deals-items div {
-    flex: 17.8%;
-    background: #fffaf8;
+.latest-news-item {
+    flex: 4;
     min-width: 250px;
     margin: 0 1% 1%;
 }
@@ -231,10 +255,23 @@ li {
 }
 
 .latest-deals-items div {
-    background-image: url("https://cdnp0.stackassets.com/7729a09bbeb1c288a048c1b854dababc73e30ef1/store/dbef0dc7b1c1694830a3a9bc71b4bc976bf8e0e1e84cb62e12bab0fe6e72/sale_25440_primary_image.jpg");
-    height: 20em;
-    width: 17.8%;
-    margin: 1em;
+    flex: 4;
+    min-width: 250px;
+    height: fit-content;
+}
+
+.latest-deals-items figure {
+    margin: 5%;
+}
+
+.latest-deals-items span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.latest-deals-items img {
+    width: 100%;
+    padding: 0;
 }
 
 .tech-news {
@@ -244,9 +281,9 @@ li {
 }
 
 .tech-news section {
-    flex: 30%;
+    flex: 3;
     margin: 0 1%;
-    min-width: 250px;
+    min-width: 300px;
     color: #555;
 }
 
@@ -255,13 +292,21 @@ li {
     background: rgba(255,68,34,.06);
 }
 
+.tech-news-block li:before {
+    content: "•";
+    color:#f42;
+    margin-left: -1em;
+    margin-right: .6em;  
+} 
+
 .tech-news-block li {
     border-bottom: 1px solid #eee;
     color: #555;
     font-size: 13px;
     padding: 1% 0 1% 2%;
-    list-style: " •";
+    list-style: none;
     background-color: #fff;
+    margin-left: .3em;
 }
 
 .tech-news-block ul {
@@ -283,31 +328,38 @@ li {
 
 
 .tech-most-popular {
-    background-image: linear-gradient(to top, #444, #555 10%, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Spirited-Away-796x415.jpg");
-    background-size: 100% 100%;
-    color: white;
     height: 276px;
-    margin: 0;
-    padding: 4%;
+    font-weight: 700;
+    padding: 2%;
+}
+
+.tech-most-popular p, .tech-most-popular h4 {
+    color: #fff;
+    position: relative;
+    top: 150px;
+    font-weight: 700;
 }
 
 #figure-tesla {  
-    height: 100%;
+    height: 98%;
     background-repeat: no-repeat;    
-    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(./resources/tesla-img.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg); 
     background-size: 100% 100%;
     margin: 0 1.5%;
-    margin-top: 1.5%;
+}
+
+#figure-tesla:hover {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.6)), url(./resources/tesla-img.jpg); /* The least supported option. */
+    background-size: 100% 100%;
 }
 
 #figure-tesla figcaption {
     position: relative;
-    padding: 0 2%;
+    padding: 0 3%;
     color: #fff;
-    font-size: xx-large;
-    font-weight: 900;
-    bottom: -50%;
-
+    font-size: 4.2vmin;
+    font-weight: 800;
+    top: 19vmin;
 }
 
 #twd-img {
@@ -315,40 +367,47 @@ li {
     width: 45%;
 }
 
-#figure-test-short {
+#figure-date {
     float: right;
     color: white;
+
 }
 
 .header-column2 figure {
-    height: 97%;
+    margin-top: 0;
     margin-left: 0;
-    margin-top: 3%;
-    margin-right: 3%;
+    margin-right: 3%; 
     overflow: hidden;
-}
+} 
 
-#figure-aside {
-    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
+#figure-aside, #figure-aside2, .tech-most-popular  {
+    background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 48.5%;
+    color: #fff;
+}
+
+#figure-aside, #figure-aside2 {
+    height: 48%;
+    min-height: 100px;
+    margin-bottom: 0;
 }
 
 #figure-aside2 {
-    background-image: linear-gradient(to top, #444, #555 10%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/tether-1122-796x431.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 48.5%;
+    margin-top: 10px;
 }
+
+#figure-aside:hover, #figure-aside2:hover {
+    background-image: linear-gradient(to top, #333, #555 15%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
+}
+
 
 #figure-aside figcaption, #figure-aside2 figcaption {
     position: relative;
-    padding: 0 2%;
-    color: #fff;
-    font-size: x-large;
+    padding: 3%;
+    font-size: 1.6vmin;
     font-weight: 400;
-    bottom: -75%;
+    top: 16vmin;
 }
 
 footer {
@@ -382,7 +441,6 @@ footer {
     color: white;
     text-decoration: none;
 }
-
 
 button {
     border-radius: 50%;
