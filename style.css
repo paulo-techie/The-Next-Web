@@ -41,25 +41,23 @@
         font-size: 70%;
     }
 
-#figure-aside figcaption, #figure-aside2 figcaption {
-    position: relative;
-    padding: 3%;
-    font-size: 110%;
-    font-weight: 700;
-    top: 20%;
+    #figure-aside figcaption, #figure-aside2 figcaption {
+        position: relative;
+        padding: 3%;
+        font-size: 110%;
+        font-weight: 700;
+        top: 20%;
+    }
+
+    #figure-tesla figcaption {
+        position: relative;
+        padding: 0 3%;
+        color: #fff;
+        font-size: 120%;
+        font-weight: 700;
+        top: 8vmin;
+    } 
 }
-
-#figure-tesla figcaption {
-    position: relative;
-    padding: 0 3%;
-    color: #fff;
-    font-size: 120%;
-    font-weight: 700;
-    top: 8vmin;
-} 
-
-}
-
 
 body {
     font-family: Arial,sans-serif;
@@ -88,7 +86,6 @@ h5 {
     color: #f42;
 }
 
-
 p {
     font-size: small;
 }
@@ -115,7 +112,6 @@ section  h3:hover {
     color:  #000;
 }
 
-
 hr {
     border: 1px solid rgba(255,68,34,.25)
 }
@@ -135,7 +131,6 @@ hr {
 .nav-row1-left {
     display: flex;
     padding-right: 5px;
-
 }
 
 .nav-row1-right {
@@ -238,7 +233,6 @@ li {
 
 .funding-round-items p {
     padding: 0 5%;
-
 }
 
 .funding-round-items img {
@@ -247,7 +241,6 @@ li {
     margin: 15px;
     z-index: 10;
     float: left;
-
 }
 
 .item-header {
@@ -364,7 +357,6 @@ li {
     height: 96px;
 } 
 
-
 .tech-most-popular {
     height: 276px;
     font-weight: 700;
@@ -400,8 +392,7 @@ li {
     float: right;
     color: white;
     font-size: 1.8vmin;
-    padding-right: 1.5%;;
-
+    padding-right: 1.5%;
 }
 
 .header-column2 figure {
@@ -486,7 +477,6 @@ button:hover {
 #stackpath {
     width: 5%;
 }
-
 
 #figure-aside figcaption, #figure-aside2 figcaption {
     position: relative;
