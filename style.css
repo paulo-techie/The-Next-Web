@@ -37,11 +37,6 @@
         margin-left: 1.5%;
     }
 
-    #figure-aside figcaption, #figure-aside2 figcaption {
-        font-weight: 400;
-        top: 1vmin;
-    }
-
     #footer-nav-items li{
         font-size: 70%;
     }
@@ -71,6 +66,11 @@ h4 {
     color: black;
 }
 
+h5 {
+    color: #f42;
+}
+
+
 p {
     font-size: small;
 }
@@ -79,11 +79,24 @@ a {
     text-decoration: none;
 }
 
-section > h3 {
+a h2 {
+    color: #fff;
+}
+
+a h3 {
+    color: #fff;
+}
+
+section  h3 {
     color:  #f42;
     margin: 1%;
-    padding-top: 50px;
+    padding-top: 40px;
 }
+
+section  h3:hover {
+    color:  #000;
+}
+
 
 hr {
     border: 1px solid rgba(255,68,34,.25)
@@ -362,9 +375,9 @@ li {
     position: relative;
     padding: 0 3%;
     color: #fff;
-    font-size: 2.9vmin;
-    font-weight: 800;
-    top: 16vmin;
+    font-size: 120%;
+    font-weight: 700;
+    top: 4vmin;
 }
 
 #twd-img {
@@ -390,7 +403,7 @@ li {
     background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: #fff;
+    color: #000;
 }
 
 #figure-aside, #figure-aside2 {
@@ -411,9 +424,9 @@ li {
 #figure-aside figcaption, #figure-aside2 figcaption {
     position: relative;
     padding: 3%;
-    font-size: 1.6vmin;
-    font-weight: 400;
-    top: 10vh;
+    font-size: 120%;
+    font-weight: 700;
+    top: 20%;
 }
 
 footer {
