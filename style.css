@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px) {
     .row1 {
-      flex-direction: column;
-      font-size: 11px;
-      margin: 0 auto;
+        flex-direction: column;
+        font-size: 11px;
+        margin: 0 auto;
     }
 
     li {
-            padding-right: 0;
+        padding-right: 0;
     }
 
     .row2 {
@@ -37,11 +37,12 @@
         margin-left: 1.5%;
     }
 
-    #footer-nav-items li{
+    #footer-nav-items li {
         font-size: 70%;
     }
 
-    #figure-aside figcaption, #figure-aside2 figcaption {
+    #figure-aside figcaption,
+    #figure-aside2 figcaption {
         position: relative;
         padding: 3%;
         font-size: 110%;
@@ -56,11 +57,11 @@
         font-size: 120%;
         font-weight: 700;
         top: 8vmin;
-    } 
+    }
 }
 
 body {
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     border: none;
@@ -71,7 +72,7 @@ body {
     margin: 0 auto;
     max-width: 1192px;
     box-sizing: border-box;
-} 
+}
 
 nav {
     display: flex;
@@ -102,19 +103,46 @@ a h3 {
     color: #fff;
 }
 
-section  h3 {
-    color:  #f42;
+.item-header a {
+    color: white;
+}
+
+a:visited,
+.nav-row1-left a:link,
+.nav-row1-right a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+
+section h3 {
+    color: #f42;
     margin: 1%;
     padding-top: 40px;
 }
 
-section  h3:hover {
-    color:  #000;
+section h3:hover {
+    color: #000;
 }
 
 hr {
-    border: 1px solid rgba(255,68,34,.25)
+    border: 1px solid rgba(255, 68, 34, 0.25);
 }
+
+.author {
+    color: white;
+    margin-top: -3%;
+    font-weight: normal;
+}
+
+.author a:hover {
+    color: white;
+}
+
+.author-row2 a:hover {
+    color: rgb(177, 174, 174);
+}
+
 
 .footer-nav-menu {
     display: flex;
@@ -142,16 +170,6 @@ hr {
 li {
     padding-right: 10px;
     list-style: none;
-}
-
-.nav-row1-right a:link, a:visited {
-    color: gray;
-    text-decoration: none;
-}
-
-.nav-row1-left a:link, a:visited {
-    color: gray;
-    text-decoration: none;
 }
 
 .nav-row1-left a:hover {
@@ -192,9 +210,9 @@ li {
 }
 
 .nav-row2-right i {
-     transform: rotateY(180deg);
-     font-size: large;
-     margin: auto 20px;
+    transform: rotateY(180deg);
+    font-size: large;
+    margin: auto 20px;
 }
 
 .header-first-row {
@@ -251,15 +269,25 @@ li {
     margin: 0;
 }
 
-.item-header a{
-    color: white;
-}
-
-.item-amount, .item-category {
+.item-amount,
+.item-category {
     line-height: 2;
     margin: 0;
     padding: 0 5%;
-    background: rgba(255,68,34,.08);
+    background: rgba(255, 68, 34, 0.08);
+}
+
+
+.tech-latest img {
+    float: right;
+    width: 96px;
+    height: 96px;
+}
+
+
+.latest-deals-items img {
+    width: 100%;
+    padding: 0;
 }
 
 
@@ -270,7 +298,8 @@ li {
     cursor: pointer;
 }
 
-.latest-news-items, .latest-deals-items {
+.latest-news-items,
+.latest-deals-items {
     display: flex;
     flex-wrap: wrap;
     flex: 100%;
@@ -305,71 +334,6 @@ li {
     color: gray;
 }
 
-.latest-deals-items img {
-    width: 100%;
-    padding: 0;
-}
-
-.tech-news {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.tech-news section {
-    flex: 3;
-    margin: 0 1%;
-    min-width: 300px;
-    color: #555;
-}
-
-.tech-news-block {
-    margin: 2% 0;
-    background: rgba(255,68,34,.06);
-}
-
-.tech-news-block li:before {
-    content: "•";
-    color:#f42;
-    margin-left: -1em;
-    margin-right: .6em;  
-} 
-
-.tech-news-block li {
-    border-bottom: 1px solid #eee;
-    color: #555;
-    font-size: 13px;
-    padding: 1% 0 1% 2%;
-    list-style: none;
-    background-color: #fff;
-    margin-left: .3em;
-}
-
-.tech-news-block ul {
-    background-color: #fff;
-    padding: 0;
-    padding-left: 1%;
-}
-
-.tech-news-block ul li a:hover {
-    color: rgb(43, 42, 42)
-}
-
-.tech-news-block h5:hover, .tech-news-block h4:hover {
-    text-decoration: underline;
-}
-
-.tech-latest {
-    padding-left: 4%;
-    color:#f42;
-}
-
-.tech-latest img {
-    float: right;
-    width: 96px;
-    height: 96px;
-} 
-
 .tech-most-popular {
     height: 276px;
     font-weight: 700;
@@ -391,17 +355,73 @@ li {
 }
 
 .tech-most-popular h4:hover {
-    text-decoration: underline;
+    text-decoration: underline solid #999 1px;
 }
 
 .tech-most-popular p a:hover {
     color: white;
 }
 
-#figure-tesla {  
+
+.tech-news {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tech-news section {
+    flex: 3;
+    margin: 0 1%;
+    min-width: 300px;
+    color: #555;
+}
+
+.tech-news-block {
+    margin: 2% 0;
+    background: rgba(255, 68, 34, 0.06);
+}
+
+.tech-news-block li::before {
+    content: "•";
+    color: #f42;
+    margin-left: -1em;
+    margin-right: 0.6em;
+}
+
+.tech-news-block li {
+    border-bottom: 1px solid #eee;
+    color: #555;
+    font-size: 13px;
+    padding: 1% 0 1% 2%;
+    list-style: none;
+    background-color: #fff;
+    margin-left: 0.3em;
+}
+
+.tech-news-block ul {
+    background-color: #fff;
+    padding: 0;
+    padding-left: 1%;
+}
+
+.tech-news-block ul li a:hover {
+    color: rgb(43, 42, 42);
+}
+
+.tech-news-block h5:hover,
+.tech-news-block h4:hover {
+    text-decoration: underline;
+}
+
+.tech-latest {
+    padding-left: 4%;
+    color: #f42;
+}
+
+#figure-tesla {
     height: 98%;
-    background-repeat: no-repeat;    
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg); 
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0 1.5%;
 }
@@ -426,11 +446,13 @@ li {
 .header-column2 figure {
     margin-top: 0;
     margin-left: 0;
-    margin-right: 3%; 
+    margin-right: 3%;
     overflow: hidden;
-} 
+}
 
-#figure-aside, #figure-aside2, .tech-most-popular  {
+#figure-aside,
+#figure-aside2,
+.tech-most-popular {
     background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -438,7 +460,8 @@ li {
     cursor: pointer;
 }
 
-#figure-aside, #figure-aside2 {
+#figure-aside,
+#figure-aside2 {
     height: 48%;
     min-height: 100px;
     margin-bottom: 0;
@@ -448,7 +471,8 @@ li {
     margin-top: 10px;
 }
 
-#figure-aside:hover, #figure-aside2:hover {
+#figure-aside:hover,
+#figure-aside2:hover {
     background-image: linear-gradient(to top, #333, #555 15%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
 }
 
@@ -463,10 +487,11 @@ footer {
     height: 5em;
     text-align: center;
     padding-top: 1.5%;
-    background:#000;
-    color:#aaa;
+    background: #000;
+    color: #aaa;
     font-size: 75%;
 }
+
 
 #footer-nav-items {
     display: flex;
@@ -507,7 +532,8 @@ button:hover {
     width: 5%;
 }
 
-#figure-aside figcaption, #figure-aside2 figcaption {
+#figure-aside figcaption,
+#figure-aside2 figcaption {
     position: relative;
     padding: 3%;
     font-size: 110%;
@@ -522,25 +548,15 @@ button:hover {
     font-size: 120%;
     font-weight: 700;
     bottom: -40%;
-} 
-
-.author {
-    color: white;
-}
-
-.author a:hover {
-    color: white;
 }
 
 .caption-title {
     color: white;
+    margin-bottom: -2.5%;
+    font-weight: normal;
 }
 
 .content h4:hover {
-    text-decoration: underline;
-    color: tomato;
-}
-
-.author-row2 a:hover {
-    color: rgb(177, 174, 174);
+    text-decoration: underline solid #f42 1px;
+    color: #f42;
 }

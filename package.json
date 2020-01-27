@@ -1,0 +1,27 @@
+{
+  "name": "help",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-techie/The-Next-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-techie/The-Next-Web/issues"
+  },
+  "homepage": "https://github.com/paulo-techie/The-Next-Web#readme",
+  "keywords": []
+}
