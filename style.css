@@ -251,6 +251,10 @@ li {
     margin: 0;
 }
 
+.item-header a{
+    color: white;
+}
+
 .item-amount, .item-category {
     line-height: 2;
     margin: 0;
