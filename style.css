@@ -263,6 +263,7 @@ li {
     flex: 4;
     min-width: 250px;
     margin: 0 1% 1%;
+    cursor: pointer;
 }
 
 .latest-news-items, .latest-deals-items {
@@ -506,4 +507,13 @@ button:hover {
 
 .caption-title {
     color: white;
+}
+
+.content h4:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.author-row2 a:hover {
+    color: rgb(177, 174, 174);
 }
