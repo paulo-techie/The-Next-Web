@@ -19,7 +19,7 @@
     .header-first-row {
         flex-direction: column;
         font: 100%;
-        height: 720px;
+        height: 800px;
         overflow: hidden;
     }
 
@@ -538,7 +538,7 @@ button:hover {
     padding: 3%;
     font-size: 110%;
     font-weight: 700;
-    bottom: -45%;
+    bottom: -40%;
 }
 
 #figure-tesla figcaption {
