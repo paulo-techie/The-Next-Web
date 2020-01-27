@@ -2,7 +2,7 @@
 
 > Building with Responsive Design
 
-![screenshot](./resources/sitescreenshot)
+![screenshot](./resources/Screenshot 2020-01-27 at 22.45.37)
 
 This is project is meant to help the candidadate get a deeper understanding of responsive design and the different ways this can be achieved. It is better done in teams
 
