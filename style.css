@@ -407,6 +407,7 @@ li {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #000;
+    cursor: pointer;
 }
 
 #figure-aside, #figure-aside2 {
@@ -483,7 +484,7 @@ button:hover {
     padding: 3%;
     font-size: 110%;
     font-weight: 700;
-    bottom: -60%;
+    bottom: -45%;
 }
 
 #figure-tesla figcaption {
@@ -492,5 +493,17 @@ button:hover {
     color: #fff;
     font-size: 120%;
     font-weight: 700;
-    bottom: -45%;
+    bottom: -40%;
 } 
+
+.author {
+    color: white;
+}
+
+.author a:hover {
+    color: white;
+}
+
+.caption-title {
+    color: white;
+}
