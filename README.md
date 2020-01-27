@@ -1,6 +1,4 @@
-# Project Name
-
-> Building with Responsive Design
+# The Next Web
 
 ![screenshot](./sitescreenshot.png)
 
@@ -15,14 +13,14 @@ This is project is meant to help the candidadate get a deeper understanding of r
 
 [Live Demo Link](https://rawcdn.githack.com/paulo-techie/The-Next-Web/6e1cb89cb683f9c14c1f6919d1e73912264e05d8/index.html)
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-### Prerequisites
+### . Prerequisites
   - Have any browser that upports HTML5 and CSS#
-### Install
+### . Install
   - With the browser set, you do not need to install any other thing
   - Clone the files to your local
-### Usage
+### . Usage
   - Open the index.html file
 ## Authors
   - 
