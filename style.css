@@ -351,6 +351,14 @@ li {
     padding-left: 1%;
 }
 
+.tech-news-block ul li a:hover {
+    color: rgb(43, 42, 42)
+}
+
+.tech-news-block h5:hover, .tech-news-block h4:hover {
+    text-decoration: underline;
+}
+
 .tech-latest {
     padding-left: 4%;
     color:#f42;
@@ -368,11 +376,26 @@ li {
     padding: 2%;
 }
 
-.tech-most-popular p, .tech-most-popular h4 {
+.tech-most-popular h4 {
     color: #fff;
     position: relative;
     top: 150px;
     font-weight: 700;
+}
+
+.tech-most-popular p {
+    color: rgb(189, 184, 184);
+    position: relative;
+    top: 150px;
+    font-weight: 700;
+}
+
+.tech-most-popular h4:hover {
+    text-decoration: underline;
+}
+
+.tech-most-popular p a:hover {
+    color: white;
 }
 
 #figure-tesla {  
