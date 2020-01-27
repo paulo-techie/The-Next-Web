@@ -15,7 +15,7 @@ This is project is meant to help the candidadate get a deeper understanding of r
 
 
 ###  Prerequisites
-  - Have any browser that upports HTML5 and CSS#
+  - Have any browser that supports HTML5 and CSS#
 ### Install
   - With the browser set, you do not need to install any other thing
   - Clone the files to your local drive.
