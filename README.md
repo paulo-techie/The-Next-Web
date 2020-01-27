@@ -13,7 +13,7 @@ This is project is meant to help the candidadate get a deeper understanding of r
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/paulo-techie/The-Next-Web/6e1cb89cb683f9c14c1f6919d1e73912264e05d8/index.html)
 
 To get a local copy up and running follow these simple example steps.
 
