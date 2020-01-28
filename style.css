@@ -42,17 +42,17 @@
 }
 
 body {
+    border: none;
+    color: gray;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    border: none;
-    color: gray;
 }
 
 .container {
+    box-sizing: border-box;
     margin: 0 auto;
     max-width: 1192px;
-    box-sizing: border-box;
 }
 
 nav {
@@ -119,11 +119,11 @@ hr {
 }
 
 .row1 {
-    display: flex;
     background-color: black;
-    width: 100%;
+    display: flex;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .nav-row1-left {
@@ -133,8 +133,8 @@ hr {
 
 .nav-row1-right {
     display: flex;
-    justify-content: flex-end;
     flex-grow: 10;
+    justify-content: flex-end;
 }
 
 li {
@@ -153,14 +153,14 @@ li {
 }
 
 .row2 {
+    background-color: #fff;
     display: flex;
     text-decoration: none;
-    background-color: #fff;
 }
 
 .nav-row2-left {
-    display: flex;
     color: gray;
+    display: flex;
 }
 
 .nav-row2-left a:link {
@@ -173,26 +173,26 @@ li {
 }
 
 .nav-row2-right {
-    display: flex;
     color: gray;
+    display: flex;
     flex-grow: 10;
     justify-content: flex-end;
 }
 
 .nav-row2-right i {
-    transform: rotateY(180deg);
     font-size: large;
     margin: auto 20px;
+    transform: rotateY(180deg);
 }
 
 .header-first-row {
-    display: flex;
-    margin: 0;
-    padding-top: 1%;
     background: linear-gradient(to bottom, #eee, #fff 25%);
     background-repeat: no-repeat;
+    display: flex;
     flex: 100%;
+    margin: 0;
     min-width: 360px;
+    padding-top: 1%;
     overflow: hidden;
 }
 
@@ -211,9 +211,9 @@ li {
 }
 
 .funding-round-items {
+    background: #fffaf8;
     flex: 4;
     margin: 0 1%;
-    background: #fffaf8;
     min-width: 250px;
 }
 
@@ -222,48 +222,48 @@ li {
 }
 
 .funding-round-items img {
-    width: 60px;
+    float: left;
     height: 60px;
     margin: 15px;
+    width: 60px;
     z-index: 10;
-    float: left;
 }
 
 .item-header {
     background: #f42;
     color: #fff;
     line-height: 3;
-    padding: 0 5%;
     margin: 0;
+    padding: 0 5%;
 }
 
 .item-amount,
 .item-category {
-    line-height: 2;
-    margin: 0;
     padding: 0 5%;
     background: rgba(255, 68, 34, 0.08);
+    line-height: 2;
+    margin: 0;
 }
 
 
 .tech-latest img {
     float: right;
-    width: 96px;
     height: 96px;
+    width: 96px;
 }
 
 
 .latest-deals-items img {
-    width: 100%;
     padding: 0;
+    width: 100%;
 }
 
 
 .latest-news-item {
-    flex: 4;
-    min-width: 250px;
-    margin: 0 1% 1%;
     cursor: pointer;
+    flex: 4;
+    margin: 0 1% 1%;
+    min-width: 250px;
 }
 
 .latest-news-items,
@@ -280,16 +280,16 @@ li {
 }
 
 .latest-news-item figure img {
-    width: 100%;
     flex: 100%;
-    padding: 0;
     margin: 0 auto;
+    padding: 0;
+    width: 100%;
 }
 
 .latest-deals-items div {
     flex: 4;
-    min-width: 250px;
     height: fit-content;
+    min-width: 250px;
 }
 
 .latest-deals-items figure {
@@ -297,21 +297,21 @@ li {
 }
 
 .latest-deals-items span {
-    text-decoration: line-through;
-    font-size: smaller;
     color: gray;
+    font-size: smaller;
+    text-decoration: line-through;
 }
 
 .tech-most-popular,
 .caption-title {
-    height: 276px;
     font-weight: 700;
+    height: 276px;
     padding: 3%;
 }
 
 .caption-title {
-    height: 100%;
     font-weight: 700;
+    height: 100%;
     min-width: 320px;
     padding: 3%;
 }
@@ -319,18 +319,18 @@ li {
 .caption-title h3,
 .tech-most-popular h4 {
     color: #fff;
-    position: relative;
-    top: 70%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
+    position: relative;
+    top: 70%;
 }
 
 .caption-title p,
 .tech-most-popular p {
     color: #fff;
+    margin: 0;
     position: relative;
     top: 70%;
-    margin: 0;
 }
 
 .caption-title h3,
@@ -353,32 +353,32 @@ li {
 }
 
 .tech-news section {
+    color: #555;
     flex: 3;
     margin: 0 1%;
     min-width: 300px;
-    color: #555;
 }
 
 .tech-news-block {
-    margin: 2% 0;
     background: rgba(255, 68, 34, 0.06);
+    margin: 2% 0;
 }
 
 .tech-news-block li::before {
-    content: "•";
     color: #f42;
+    content: "•";
     margin-left: -1em;
     margin-right: 0.6em;
 }
 
 .tech-news-block li {
+    background-color: #fff;
     border-bottom: 1px solid #eee;
     color: #555;
     font-size: 13px;
-    padding: 1% 0 1% 2%;
     list-style: none;
-    background-color: #fff;
     margin-left: 0.3em;
+    padding: 1% 0 1% 2%;
 }
 
 .tech-news-block ul {
@@ -397,15 +397,15 @@ li {
 }
 
 .tech-latest {
-    padding-left: 4%;
     color: #f42;
+    padding-left: 4%;
 }
 
 #figure-tesla {
-    height: 98%;
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 98%;
     margin: 0 1.5%;
 }
 
@@ -420,8 +420,8 @@ li {
 }
 
 #figure-date {
-    float: right;
     color: white;
+    float: right;
     font-size: 1.8vmin;
     padding-right: 1.5%;
 }
@@ -461,25 +461,25 @@ li {
 
 footer {
     background-color: #131313;
-    text-align: center;
-    padding-top: 20px;
     color: #555;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .copyright {
-    height: 5em;
-    text-align: center;
-    padding-top: 1.5%;
     background: #000;
     color: #aaa;
     font-size: 75%;
+    height: 5em;
+    padding-top: 1.5%;
+    text-align: center;
 }
 
 
 #footer-nav-items {
     display: flex;
-    margin: 30px auto;
     font-size: small;
+    margin: 30px auto;
 }
 
 #footer-nav-items a:link {
@@ -493,13 +493,13 @@ footer {
 }
 
 button {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    font-size: large;
     background: #333;
-    color: #fff;
     border-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    height: 40px;
+    font-size: large;
+    width: 40px;
 }
 
 button:hover {
@@ -516,12 +516,12 @@ button:hover {
 }
 
 .figure-title {
-    position: relative;
-    padding: 3%;
     color: #fff;
     font-size: 130%;
     font-weight: 800;
     height: 100%;
+    padding: 3%;
+    position: relative;
     top: 0;
 }
 
@@ -532,8 +532,8 @@ button:hover {
 }
 
 .content h4:hover {
-    text-decoration: underline solid #f42 1px;
     color: #f42;
+    text-decoration: underline solid #f42 1px;
 }
 
 section h3:hover {
