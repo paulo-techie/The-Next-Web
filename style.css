@@ -71,8 +71,8 @@ p {
 }
 
 a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 a:visited,
@@ -82,16 +82,17 @@ a:visited,
     text-decoration: none;
 }
 
-.tech h3,
-.latest-deals h3,
-.funding-rounds-header h3,
-.latest-news h3 {
+.latest-deals>h3,
+.funding-rounds-header>h3,
+.latest-news>h3,
+.tech a>h3 {
     color: #f42;
     margin: 1%;
     padding-top: 40px;
 }
 
 hr {
+    border: 1px solid rgb(255, 68, 34, 0.25);
     border: 1px solid rgba(255, 68, 34, 0.25);
 }
 
@@ -180,8 +181,8 @@ li {
     background-repeat: no-repeat;
     display: flex;
     flex: 100%;
-    min-width: 360px;
     margin: 0;
+    min-width: 360px;
     padding-top: 1%;
     overflow: hidden;
 }
@@ -245,6 +246,7 @@ li {
 
 .item-amount,
 .item-category {
+    background: rgba(255, 68, 34);
     background: rgba(255, 68, 34, 0.08);
     line-height: 2;
     margin: 0;
@@ -260,9 +262,9 @@ li {
 
 
 .latest-deals-items img {
+    margin: 0;
     padding: 0;
     width: 100%;
-    margin: 0;
 }
 
 
@@ -367,9 +369,9 @@ li {
 }
 
 .tech-news-block {
+    background: rgb(255, 68, 34, 0.06);
     background: rgba(255, 68, 34, 0.06);
     margin: 2% 0;
-    padding: ;
 }
 
 .tech-news-block li::before {
@@ -419,6 +421,7 @@ h5:hover,
 
 .figure-tesla:hover {
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.6)), url(./resources/tesla-img.jpg); /* The least supported option. */
+    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
@@ -486,8 +489,8 @@ button {
     border-color: #333;
     border-radius: 50%;
     color: #fff;
-    height: 40px;
     font-size: large;
+    height: 40px;
     width: 40px;
 }
 
@@ -516,8 +519,8 @@ button:hover {
 
 .figure-title p,
 .figure-title h2 {
-    margin-top: 1%;
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .content h4:hover {
