@@ -18,13 +18,13 @@
 
     .header-first-row {
         flex-direction: column;
-        font: 100%;
+        font-size: 100%;
         overflow: hidden;
     }
 
     .tech-news section {
-        flex-direction: column;
         flex: 100%;
+        flex-direction: column;
     }
 
     .header-column1 {
@@ -36,7 +36,7 @@
         margin-left: 1.5%;
     }
 
-    #footer-nav-items li {
+    .footer-nav-items li {
         font-size: 70%;
     }
 }
@@ -50,14 +50,8 @@ body {
 }
 
 .container {
-    box-sizing: border-box;
     margin: 0 auto;
     max-width: 1192px;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
 }
 
 h4 {
@@ -76,11 +70,11 @@ a {
     text-decoration: none;
 }
 
-a h2 {
+a>h2 {
     color: #fff;
 }
 
-a h3 {
+a>h3 {
     color: #fff;
 }
 
@@ -202,6 +196,22 @@ li {
 
 .header-column2 {
     flex: 1;
+}
+
+.footer-nav-items {
+    display: flex;
+    font-size: small;
+    margin: 30px auto;
+}
+
+.footer-nav-items a:link {
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+}
+
+.footer-nav-items a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .funding-rounds {
@@ -475,22 +485,6 @@ footer {
     text-align: center;
 }
 
-
-#footer-nav-items {
-    display: flex;
-    font-size: small;
-    margin: 30px auto;
-}
-
-#footer-nav-items a:link {
-    color: rgb(245, 243, 243);
-    text-decoration: none;
-}
-
-#footer-nav-items a:hover {
-    color: white;
-    text-decoration: none;
-}
 
 button {
     background: #333;
