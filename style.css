@@ -411,7 +411,7 @@ li {
     padding-left: 4%;
 }
 
-#figure-tesla {
+.figure-tesla {
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -419,7 +419,7 @@ li {
     margin: 0 1.5%;
 }
 
-#figure-tesla:hover {
+.figure-tesla:hover {
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.6)), url(./resources/tesla-img.jpg); /* The least supported option. */
     background-size: 100% 100%;
 }
@@ -429,7 +429,7 @@ li {
     width: 45%;
 }
 
-#figure-date {
+.figure-date {
     color: white;
     float: right;
     font-size: 1.8vmin;
@@ -443,8 +443,7 @@ li {
     overflow: hidden;
 }
 
-#figure-aside,
-#figure-aside2,
+.figure-aside,
 .tech-most-popular {
     background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
@@ -453,8 +452,7 @@ li {
     cursor: pointer;
 }
 
-#figure-aside,
-#figure-aside2 {
+.figure-aside {
     height: 48%;
     min-height: 100px;
     margin-bottom: 0;
@@ -464,8 +462,7 @@ li {
     margin-top: 1.5%;
 }
 
-#figure-aside:hover,
-#figure-aside2:hover {
+.figure-aside:hover {
     background-image: linear-gradient(to top, #333, #555 15%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
 }
 
@@ -505,7 +502,7 @@ button:hover {
     width: 3%;
 }
 
-#stackpath {
+.stackpath {
     width: 5%;
 }
 
