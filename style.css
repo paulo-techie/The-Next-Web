@@ -54,6 +54,10 @@ body {
     max-width: 1192px;
 }
 
+h2 {
+    color: #fff;
+}
+
 h4 {
     color: black;
 }
@@ -68,18 +72,7 @@ p {
 
 a {
     text-decoration: none;
-}
-
-a>h2 {
     color: #fff;
-}
-
-a>h3 {
-    color: #fff;
-}
-
-.item-header a {
-    color: white;
 }
 
 a:visited,
@@ -89,7 +82,10 @@ a:visited,
     text-decoration: none;
 }
 
-section h3 {
+.tech h3,
+.latest-deals h3,
+.funding-rounds-header h3,
+.latest-news h3 {
     color: #f42;
     margin: 1%;
     padding-top: 40px;
@@ -132,8 +128,8 @@ hr {
 }
 
 li {
-    padding-right: 10px;
     list-style: none;
+    padding-right: 10px;
 }
 
 .nav-row1-left a:hover {
@@ -184,8 +180,8 @@ li {
     background-repeat: no-repeat;
     display: flex;
     flex: 100%;
-    margin: 0;
     min-width: 360px;
+    margin: 0;
     padding-top: 1%;
     overflow: hidden;
 }
@@ -216,8 +212,8 @@ li {
 
 .funding-rounds {
     display: flex;
-    flex-wrap: wrap;
     flex: 100%;
+    flex-wrap: wrap;
 }
 
 .funding-round-items {
@@ -249,10 +245,10 @@ li {
 
 .item-amount,
 .item-category {
-    padding: 0 5%;
     background: rgba(255, 68, 34, 0.08);
     line-height: 2;
     margin: 0;
+    padding: 0 5%;
 }
 
 
@@ -266,6 +262,7 @@ li {
 .latest-deals-items img {
     padding: 0;
     width: 100%;
+    margin: 0;
 }
 
 
@@ -279,8 +276,8 @@ li {
 .latest-news-items,
 .latest-deals-items {
     display: flex;
-    flex-wrap: wrap;
     flex: 100%;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -299,11 +296,12 @@ li {
 .latest-deals-items div {
     flex: 4;
     height: fit-content;
+    margin: 1.5%;
     min-width: 250px;
 }
 
 .latest-deals-items figure {
-    margin: 5%;
+    margin: 0;
 }
 
 .latest-deals-items span {
@@ -323,11 +321,10 @@ li {
     font-weight: 700;
     height: 100%;
     min-width: 320px;
-    padding: 3%;
 }
 
-.caption-title h3,
-.tech-most-popular h4 {
+.caption-title-header,
+.tech-most-popular-header {
     color: #fff;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
@@ -343,13 +340,13 @@ li {
     top: 70%;
 }
 
-.caption-title h3,
+.caption-title-header,
 .caption-title p {
     top: 35%;
 }
 
-.tech-most-popular h4:hover {
-    text-decoration: underline solid #999 1px;
+.tech-most-popular-header:hover {
+    text-decoration: underline solid #999;
 }
 
 .tech-most-popular p a:hover {
@@ -372,6 +369,7 @@ li {
 .tech-news-block {
     background: rgba(255, 68, 34, 0.06);
     margin: 2% 0;
+    padding: ;
 }
 
 .tech-news-block li::before {
@@ -401,8 +399,8 @@ li {
     color: rgb(43, 42, 42);
 }
 
-.tech-news-block h5:hover,
-.tech-news-block h4:hover {
+h5:hover,
+.tech-most-popular-header:hover {
     text-decoration: underline;
 }
 
@@ -429,7 +427,7 @@ li {
     width: 45%;
 }
 
-.figure-date {
+#figure-date {
     color: white;
     float: right;
     font-size: 1.8vmin;
@@ -437,9 +435,9 @@ li {
 }
 
 .header-column2 figure {
-    margin-top: 0;
     margin-left: 0;
     margin-right: 3%;
+    margin-top: 0;
     overflow: hidden;
 }
 
@@ -454,8 +452,8 @@ li {
 
 .figure-aside {
     height: 48%;
-    min-height: 100px;
     margin-bottom: 0;
+    min-height: 100px;
 }
 
 #figure-aside2 {
