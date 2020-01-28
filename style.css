@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .row1 {
         flex-direction: column;
         font-size: 11px;
@@ -19,7 +19,6 @@
     .header-first-row {
         flex-direction: column;
         font: 100%;
-        height: 800px;
         overflow: hidden;
     }
 
@@ -29,7 +28,7 @@
     }
 
     .header-column1 {
-        margin: 10px;
+        margin: 1.5%;
         margin-left: 0;
     }
 
@@ -39,24 +38,6 @@
 
     #footer-nav-items li {
         font-size: 70%;
-    }
-
-    #figure-aside figcaption,
-    #figure-aside2 figcaption {
-        position: relative;
-        padding: 3%;
-        font-size: 110%;
-        font-weight: 700;
-        top: 20%;
-    }
-
-    #figure-tesla figcaption {
-        position: relative;
-        padding: 0 3%;
-        color: #fff;
-        font-size: 120%;
-        font-weight: 700;
-        top: 8vmin;
     }
 }
 
@@ -114,25 +95,14 @@ a:visited,
     text-decoration: none;
 }
 
-
 section h3 {
     color: #f42;
     margin: 1%;
     padding-top: 40px;
 }
 
-section h3:hover {
-    color: #000;
-}
-
 hr {
     border: 1px solid rgba(255, 68, 34, 0.25);
-}
-
-.author {
-    color: white;
-    margin-top: -3%;
-    font-weight: normal;
 }
 
 .author a:hover {
@@ -222,13 +192,11 @@ li {
     background: linear-gradient(to bottom, #eee, #fff 25%);
     background-repeat: no-repeat;
     flex: 100%;
-    min-width: 374px;
-    height: 560px;
+    min-width: 360px;
     overflow: hidden;
 }
 
 .header-column1 {
-    display: block;
     flex: 2;
 }
 
@@ -334,24 +302,40 @@ li {
     color: gray;
 }
 
-.tech-most-popular {
+.tech-most-popular,
+.caption-title {
     height: 276px;
     font-weight: 700;
-    padding: 2%;
+    padding: 3%;
 }
 
+.caption-title {
+    height: 100%;
+    font-weight: 700;
+    min-width: 320px;
+    padding: 3%;
+}
+
+.caption-title h3,
 .tech-most-popular h4 {
     color: #fff;
     position: relative;
-    top: 150px;
-    font-weight: 700;
+    top: 70%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
+.caption-title p,
 .tech-most-popular p {
-    color: rgb(189, 184, 184);
+    color: #fff;
     position: relative;
-    top: 150px;
-    font-weight: 700;
+    top: 70%;
+    margin: 0;
+}
+
+.caption-title h3,
+.caption-title p {
+    top: 35%;
 }
 
 .tech-most-popular h4:hover {
@@ -361,7 +345,6 @@ li {
 .tech-most-popular p a:hover {
     color: white;
 }
-
 
 .tech-news {
     display: flex;
@@ -468,7 +451,7 @@ li {
 }
 
 #figure-aside2 {
-    margin-top: 10px;
+    margin-top: 1.5%;
 }
 
 #figure-aside:hover,
@@ -532,31 +515,28 @@ button:hover {
     width: 5%;
 }
 
-#figure-aside figcaption,
-#figure-aside2 figcaption {
+.figure-title {
     position: relative;
     padding: 3%;
-    font-size: 110%;
-    font-weight: 700;
-    bottom: -40%;
-}
-
-#figure-tesla figcaption {
-    position: relative;
-    padding: 0 3%;
     color: #fff;
-    font-size: 120%;
-    font-weight: 700;
-    bottom: -40%;
+    font-size: 130%;
+    font-weight: 800;
+    height: 100%;
+    top: 0;
 }
 
-.caption-title {
-    color: white;
-    margin-bottom: -2.5%;
-    font-weight: normal;
+.figure-title p,
+.figure-title h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .content h4:hover {
     text-decoration: underline solid #f42 1px;
     color: #f42;
 }
+
+section h3:hover {
+    color: #000;
+}
+
