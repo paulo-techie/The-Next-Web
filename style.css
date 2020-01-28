@@ -82,17 +82,14 @@ a:visited,
     text-decoration: none;
 }
 
-.latest-deals>h3,
-.funding-rounds-header>h3,
-.latest-news>h3,
-.tech a>h3 {
+h3 {
     color: #f42;
     margin: 1%;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 hr {
-    border: 1px solid rgb(255, 68, 34, 0.25);
+    border: 1px solid rgb(255, 68, 34);
     border: 1px solid rgba(255, 68, 34, 0.25);
 }
 
@@ -183,8 +180,8 @@ li {
     flex: 100%;
     margin: 0;
     min-width: 360px;
-    padding-top: 1%;
     overflow: hidden;
+    padding-top: 1%;
 }
 
 .header-column1 {
@@ -246,7 +243,7 @@ li {
 
 .item-amount,
 .item-category {
-    background: rgba(255, 68, 34);
+    background: rgb(255, 68, 34);
     background: rgba(255, 68, 34, 0.08);
     line-height: 2;
     margin: 0;
@@ -328,8 +325,9 @@ li {
 .caption-title-header,
 .tech-most-popular-header {
     color: #fff;
-    margin-top: 1.5%;
     margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    padding-top: 0;
     position: relative;
     top: 70%;
 }
@@ -369,7 +367,7 @@ li {
 }
 
 .tech-news-block {
-    background: rgb(255, 68, 34, 0.06);
+    background: rgb(255, 68, 34);
     background: rgba(255, 68, 34, 0.06);
     margin: 2% 0;
 }
@@ -525,7 +523,7 @@ button:hover {
 
 .content h4:hover {
     color: #f42;
-    text-decoration: underline solid #f42 1px;
+    text-decoration: underline solid #f42;
 }
 
 section h3:hover {
