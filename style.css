@@ -1,8 +1,8 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .row1 {
-        flex-direction: column;
-        font-size: 11px;
-        margin: 0 auto;
+        display: none;
+        opacity: 0;
+        height: 0;
     }
 
     li {
@@ -11,9 +11,53 @@
 
     .row2 {
         flex-direction: column;
-        font-size: 10px;
         margin: 0 auto;
         padding: 0;
+    }
+
+    .nav-row2-left {
+        opacity: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-row2-right {
+        font-size: xx-large;
+        margin: auto 0;
+        padding: 0;
+        align-content: center;
+    }
+
+    .nav-row2-right li {
+        border-left: 1px solid #eee;
+    }
+
+    .nav-logo {
+        width: 30%;
+        background: #f42;
+        margin: auto;
+    }
+
+
+    .figure-aside {
+        height: 0;
+    }
+
+    .figure-date {
+        display: none;
+    }
+
+    .twd-img {
+        display: none;
+    }
+
+    .fa-bars {
+        color: #f42;
+    }
+
+    .gap {
+        width: 100%;
     }
 
     .header-first-row {
@@ -179,7 +223,6 @@ li {
     display: flex;
     flex: 100%;
     margin: 0;
-    min-width: 360px;
     overflow: hidden;
     padding-top: 1%;
 }
@@ -309,17 +352,14 @@ li {
     text-decoration: line-through;
 }
 
+.tech-most-popular {
+    height: 276px;
+}
+
 .tech-most-popular,
 .caption-title {
     font-weight: 700;
-    height: 276px;
     padding: 3%;
-}
-
-.caption-title {
-    font-weight: 700;
-    height: 100%;
-    min-width: 320px;
 }
 
 .caption-title-header,
@@ -413,7 +453,7 @@ h5:hover,
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.7)), url(./resources/tesla-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 98%;
+    height: 100%;
     margin: 0 1.5%;
 }
 
@@ -423,15 +463,16 @@ h5:hover,
     background-size: 100% 100%;
 }
 
-#twd-img {
+.twd-img {
+    width: 40%;
+    height: auto;
     padding: 3%;
-    width: 45%;
 }
 
-#figure-date {
+.figure-date {
     color: white;
     float: right;
-    font-size: 1.8vmin;
+    font-size: 80%;
     padding-right: 1.5%;
 }
 
@@ -448,17 +489,15 @@ h5:hover,
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #000;
-    cursor: pointer;
 }
 
 .figure-aside {
-    height: 48%;
     margin-bottom: 0;
-    min-height: 100px;
+    padding-top: 25%;
 }
 
 #figure-aside2 {
-    margin-top: 1.5%;
+    margin-top: 3%;
 }
 
 .figure-aside:hover {
@@ -509,10 +548,9 @@ button:hover {
     color: #fff;
     font-size: 130%;
     font-weight: 800;
-    height: 100%;
     padding: 3%;
     position: relative;
-    top: 0;
+    top: 22%;
 }
 
 .figure-title p,
