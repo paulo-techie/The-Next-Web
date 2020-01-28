@@ -18,8 +18,8 @@
     .nav-row2-left {
         height: 0;
         margin: 0;
-        padding: 0;
         opacity: 0;
+        padding: 0;
     }
 
     .nav-row2-right {
@@ -377,8 +377,8 @@ li {
 
 .tech-most-popular-header:hover,
 .caption-title-header:hover {
-    text-decoration: underline solid #999;
     color: white;
+    text-decoration: underline solid #999;
 }
 
 .tech-most-popular p a:hover {
@@ -453,7 +453,7 @@ h5:hover {
 }
 
 .twd-img {
-    padding: 3%;
+    margin: 3%;
     width: 40%;
 }
 
@@ -471,7 +471,7 @@ h5:hover {
     overflow: hidden;
 }
 
-.figure-aside,
+.figure-aside, .figure-aside2,
 .tech-most-popular {
     background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
@@ -479,17 +479,17 @@ h5:hover {
     color: #000;
 }
 
-.figure-aside {
+.figure-aside, .figure-aside2 {
     margin-bottom: 0;
     padding-top: 25%;
 }
 
-#figure-aside2 {
-    margin-top: 3%;
+.figure-aside {
+    margin-bottom: 3%;
 }
 
-.figure-aside:hover {
-    opacity: 95%;
+.figure-aside:hover, .figure-aside2:hover {
+    opacity: 0.9;
 }
 
 footer {
