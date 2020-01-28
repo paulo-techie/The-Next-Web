@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
     .row1 {
         display: none;
-        opacity: 0;
         height: 0;
+        opacity: 0;
     }
 
     li {
@@ -16,17 +16,16 @@
     }
 
     .nav-row2-left {
-        opacity: 0;
         height: 0;
         margin: 0;
         padding: 0;
+        opacity: 0;
     }
 
     .nav-row2-right {
         font-size: xx-large;
         margin: auto 0;
         padding: 0;
-        align-content: center;
     }
 
     .nav-row2-right li {
@@ -34,14 +33,9 @@
     }
 
     .nav-logo {
-        width: 30%;
         background: #f42;
         margin: auto;
-    }
-
-
-    .figure-aside {
-        height: 0;
+        width: 30%;
     }
 
     .figure-date {
@@ -77,6 +71,7 @@
     }
 
     .header-column2 {
+        margin: 0;
         margin-left: 1.5%;
     }
 
@@ -380,13 +375,10 @@ li {
     top: 70%;
 }
 
-.caption-title-header,
-.caption-title p {
-    top: 35%;
-}
-
-.tech-most-popular-header:hover {
+.tech-most-popular-header:hover,
+.caption-title-header:hover {
     text-decoration: underline solid #999;
+    color: white;
 }
 
 .tech-most-popular p a:hover {
@@ -439,8 +431,7 @@ li {
     color: rgb(43, 42, 42);
 }
 
-h5:hover,
-.tech-most-popular-header:hover {
+h5:hover {
     text-decoration: underline;
 }
 
@@ -458,19 +449,16 @@ h5:hover,
 }
 
 .figure-tesla:hover {
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(195, 55, 100, 0.6)), url(./resources/tesla-img.jpg); /* The least supported option. */
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    opacity: 0.9;
 }
 
 .twd-img {
-    width: 40%;
-    height: auto;
     padding: 3%;
+    width: 40%;
 }
 
 .figure-date {
-    color: white;
+    color: #fff;
     float: right;
     font-size: 80%;
     padding-right: 1.5%;
@@ -501,7 +489,7 @@ h5:hover,
 }
 
 .figure-aside:hover {
-    background-image: linear-gradient(to top, #333, #555 15%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
+    opacity: 95%;
 }
 
 footer {
@@ -515,8 +503,7 @@ footer {
     background: #000;
     color: #aaa;
     font-size: 75%;
-    height: 5em;
-    padding-top: 1.5%;
+    padding: 3%;
     text-align: center;
 }
 
@@ -553,18 +540,18 @@ button:hover {
     top: 22%;
 }
 
-.figure-title p,
-.figure-title h2 {
+.figure-title-top,
+.figure-title-header {
     margin-bottom: 1%;
     margin-top: 1%;
 }
 
-.content h4:hover {
+h4:hover {
     color: #f42;
     text-decoration: underline solid #f42;
 }
 
-section h3:hover {
+h3:hover {
     color: #000;
 }
 
