@@ -11,7 +11,7 @@ This is project is meant to help the candidadate get a deeper understanding of r
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/paulo-techie/The-Next-Web/fe4beaeeb934c5448e4129ef9daa4c63142f2608/index.html)
+[Live Demo Link](https://rawcdn.githack.com/paulo-techie/The-Next-Web/c8358ec0ffe3117a92e5b1f7704b78f8ac7cc9e5/index.html)
 
 
 ###  Prerequisites
