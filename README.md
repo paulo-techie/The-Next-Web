@@ -1,73 +1,47 @@
-# Project Name
+# The Next Web
 
-> One paragraph statement about the project.
+![screenshot](./sitescreenshot.png)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+This is project is meant to help the candidadate get a deeper understanding of responsive design and the different ways this can be achieved. It is better done in teams
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/paulo-techie/The-Next-Web/c8358ec0ffe3117a92e5b1f7704b78f8ac7cc9e5/index.html)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
+###  Prerequisites
+  - Have any browser that supports HTML5 and CSS#
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+  - With the browser set, you do not need to install any other thing
+  - Clone the files to your local drive.
+### . Usage
+  - Open the index.html file and you are good to go.
 ## Authors
+  - 
+👤 Jude Kajura
 
-👤 **Author1**
+- Github: [@kbjude](https://github.com/kbjude)
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 Paul Omondi
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@paulo-techie](https://github.com/paulo-techie)
+- Linkedin: [paul-o-43051a31](https://www.linkedin.com/in/paul-o-43051a31)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/paulo-techie/The-Next-Web/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
