@@ -22,9 +22,9 @@
     .nav-row1-right,
     .nav-row2-left2 {
         height: 0;
-        width: 0;
         margin: 0;
         opacity: 0;
+        width: 0;
     }
 
     .figure-date {
