@@ -1,41 +1,11 @@
-@media only screen and (max-width: 768px) {
-    .row1 {
-        display: none;
-        height: 0;
-        opacity: 0;
-    }
-
-    li {
-        padding-right: 0;
-    }
-
-    .row2 {
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 0;
-    }
-
+@media only screen and (max-width: 1008px) {
     .nav-row2-left {
-        height: 0;
-        margin: 0;
-        opacity: 0;
-        padding: 0;
-    }
-
-    .nav-row2-right {
-        font-size: xx-large;
-        margin: auto 0;
-        padding: 0;
-    }
-
-    .nav-row2-right li {
-        border-left: 1px solid #eee;
-    }
-
-    .nav-logo {
         background: #f42;
-        margin: auto;
-        width: 30%;
+        width: 10%;
+    }
+
+    .nav-row2-left img {
+        margin: 10%;
     }
 
     .figure-date {
@@ -43,15 +13,26 @@
     }
 
     .twd-img {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-row1-left,
+    .nav-row1-right,
+    .nav-row2-left2 {
+        height: 0;
+        width: 0;
+        margin: 0;
+        opacity: 0;
+    }
+
+    .figure-date {
         display: none;
     }
 
     .fa-bars {
         color: #f42;
-    }
-
-    .gap {
-        width: 100%;
     }
 
     .header-first-row {
@@ -140,6 +121,13 @@ hr {
     color: rgb(177, 174, 174);
 }
 
+.top-menu {
+    display: flex;
+}
+
+.menu-bars {
+    width: 100%;
+}
 
 .footer-nav-menu {
     display: flex;
@@ -148,6 +136,7 @@ hr {
 .row1 {
     background-color: black;
     display: flex;
+    font-size: small;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -185,16 +174,17 @@ li {
     text-decoration: none;
 }
 
-.nav-row2-left {
+.nav-row2-left2 {
     color: gray;
     display: flex;
+    font-size: small;
 }
 
-.nav-row2-left a:link {
+.nav-row2-left2 a:link {
     text-decoration: none;
 }
 
-.nav-row2-left a:hover {
+.nav-row2-left2 a:hover {
     color: black;
     text-decoration: none;
 }
@@ -471,7 +461,8 @@ h5:hover {
     overflow: hidden;
 }
 
-.figure-aside, .figure-aside2,
+.figure-aside,
+.figure-aside2,
 .tech-most-popular {
     background-image: linear-gradient(to top, #333, #555 30%, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg);
     background-repeat: no-repeat;
@@ -479,7 +470,8 @@ h5:hover {
     color: #000;
 }
 
-.figure-aside, .figure-aside2 {
+.figure-aside,
+.figure-aside2 {
     margin-bottom: 0;
     padding-top: 25%;
 }
@@ -488,7 +480,8 @@ h5:hover {
     margin-bottom: 3%;
 }
 
-.figure-aside:hover, .figure-aside2:hover {
+.figure-aside:hover,
+.figure-aside2:hover {
     opacity: 0.9;
 }
 
@@ -554,4 +547,3 @@ h4:hover {
 h3:hover {
     color: #000;
 }
-
